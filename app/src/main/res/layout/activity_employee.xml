@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/serviceNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/servicesListView"
+        android:layout_marginTop="35dp"
+        android:hint="Название услуги" />
+
+    <EditText
+        android:id="@+id/serviceDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/serviceNameEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Описание услуги" />
+
+    <EditText
+        android:id="@+id/searchServiceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/serviceDescriptionEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Поиск услуги по названию" />
+
+    <Button
+        android:id="@+id/addServiceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchServiceEditText"
+        android:layout_marginTop="16dp"
+        android:text="Добавить услугу" />
+
+    <Button
+        android:id="@+id/deleteServiceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchServiceEditText"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@id/addServiceButton"
+        android:text="Удалить услугу" />
+
+    <Button
+        android:id="@+id/updateServiceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchServiceEditText"
+        android:layout_marginStart="-321dp"
+        android:layout_marginTop="69dp"
+        android:layout_toEndOf="@id/deleteServiceButton"
+        android:text="Обновить услугу" />
+
+    <Button
+        android:id="@+id/searchServiceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchServiceEditText"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="70dp"
+        android:layout_toEndOf="@id/updateServiceButton"
+        android:text="Поиск услуги" />
+
+    <ListView
+        android:id="@+id/servicesListView"
+        android:layout_width="match_parent"
+        android:layout_height="364dp"
+        android:layout_weight="1"
+        android:choiceMode="singleChoice" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1057032387766",
+    "project_id": "bibubaba-e22db",
+    "storage_bucket": "bibubaba-e22db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057032387766:android:7a73c3147d278c54ba7a17",
+        "android_client_info": {
+          "package_name": "com.example.pupukaka"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlP7FLfuqbRJv19T4zVBWKzPQqBknlmTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
